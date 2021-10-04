@@ -51,8 +51,13 @@ function App() {
                     <Route path="/MineSweeperZustand" exact component={MineSweeperZustand} />
                     <Route path="/Dogs" exact component={Dogs} />
                     <Route exact path="/">
-                        {/*<Home />*/}
-                        <h1>home</h1>
+                        <h1>Redux vs Zustand and Class vs Functional</h1>
+                        <br /><br />
+                        <h3>
+                            <a href="https://docs.google.com/presentation/d/1DPToqqTVP0_Xernw2U8KfQTudcH_IcyDWrm4JPJH8YQ/edit?usp=sharing">
+                                Slides
+                            </a>
+                        </h3>
                     </Route>
                 </Switch>
             </div>
